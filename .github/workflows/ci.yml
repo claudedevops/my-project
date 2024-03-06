@@ -34,6 +34,7 @@ jobs:
         image: claudeeke/nodeapp
         tag: v2
         registry: docker.io
+        enableBuildKit: true
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
